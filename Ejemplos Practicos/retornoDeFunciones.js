@@ -1,2 +1,0 @@
-// Retorno de variables.
-
