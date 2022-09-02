@@ -11,7 +11,7 @@ function proximoEnFila(arreglo, elemento) { //se crea la funcion proximoEnFila, 
 
 let miArreglo = [1, 2, 3, 4, 5]; //se crea el arreglo miArreglo
 console.log('Antes: ' + JSON.stringify(miArreglo)); // antes : [1,2,3,4,5] //*se muestra el arreglo miArreglo por consola
-
+//* json.stringify() convierte un objeto o valor de javascript en una cadena de texto JSON.
 
 console.log(proximoEnFila(miArreglo, 6)); //1 //*se muestra el elemento eliminado por consola
 
