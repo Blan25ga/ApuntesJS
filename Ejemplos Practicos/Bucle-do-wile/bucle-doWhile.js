@@ -54,4 +54,3 @@ while (x < 10) { // la condicion es falsa desde el inicio
 }
 
 
-
