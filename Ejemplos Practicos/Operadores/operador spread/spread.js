@@ -21,11 +21,11 @@ console.log(musica); // ["cabeça", "ombros", "joelhos", "e", "pés"]
 
 const numeros = [1, 2, 3];
 function sumar(a, b, c) {
-  console.log(a); // 1
-  console.log(b); // 2
-  console.log(c); // 3
+    console.log(a); // 1
+    console.log(b); // 2
+    console.log(c); // 3
 
-  return a + b + c;
+    return a + b + c;
 }
 
 console.log(sumar(...numeros)); // 6, el opreador spread (...) pone en cinjunto los 3 numeros en la funcion sumar.

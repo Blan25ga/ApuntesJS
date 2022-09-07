@@ -2,9 +2,9 @@
 // Numeros enteros aleatorios con rango especifico.
 
 function aleatorioEntre(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;// Math.floor() redondea hacia abajo.
+    return Math.floor(Math.random() * (max - min + 1)) + min;// Math.floor() redondea hacia abajo.
 
-  //* los valores * (max - min + 1) + min; son los valores que se pueden obtener.
+    //* los valores * (max - min + 1) + min; son los valores que se pueden obtener.
 }
 
 console.log(aleatorioEntre(6, 10)); // 9

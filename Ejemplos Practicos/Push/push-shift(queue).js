@@ -5,8 +5,8 @@ como argumentos. Agrega el numero al final de arreglo y luego elimina el primer 
 La funcion proximoEnFila debe retornar el elemento que fue eliminado. */
 
 function proximoEnFila(arreglo, elemento) { //se crea la funcion proximoEnFila, con los parametros arreglo y elemento
-  arreglo.push(elemento); //se agrega el elemento al final del arreglo
-  return arreglo.shift(); //se elimina el primer elemento del arreglo y se retorna el elemento eliminado
+    arreglo.push(elemento); //se agrega el elemento al final del arreglo
+    return arreglo.shift(); //se elimina el primer elemento del arreglo y se retorna el elemento eliminado
 }
 
 let miArreglo = [1, 2, 3, 4, 5]; //se crea el arreglo miArreglo

@@ -7,9 +7,9 @@
 // Ejemplo 1
 
 let colores = {
-  verde: "#00FF00",
-  rojo: "#FF0000",
-  azul: "#0000FF"
+    verde: "#00FF00",
+    rojo: "#FF0000",
+    azul: "#0000FF"
 };
 
 Object.freeze(colores); // Se hace inmutable el objeto colores

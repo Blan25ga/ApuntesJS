@@ -12,29 +12,29 @@ console.log(aleatorioEntre0y20);// 13, //* el numero va cambiando cada vez que s
 
 // Generar funcion que devuelva un entero aleatorio.
 function aleatorioEntre(limiteSuperior) {
-  // se genera un entero aleatorio en tre 0 y limiteSuperior (sin incluirlo, por eso el +1)
-  return Math.floor(Math.random() * limiteSuperior);
+    // se genera un entero aleatorio en tre 0 y limiteSuperior (sin incluirlo, por eso el +1)
+    return Math.floor(Math.random() * limiteSuperior);
 }
 
 console.log(aleatorioEntre(6)); // 3
 
 // Ejemplo con bucle for.
 for (var i = 0; i < 10; i++) { // se ejecuta 10 veces
-  console.log(aleatorioEntre(10)); // 3, 5, 2, 8, 9, 0, 1, 4, 7, 6
+    console.log(aleatorioEntre(10)); // 3, 5, 2, 8, 9, 0, 1, 4, 7, 6
 }
 
 // Ejemplo con bucle while.
 var i = 0;
 while (i < 5) {
-  console.log(aleatorioEntre(5)); // 0, 5, 3, 8, 9
-  i++;
+    console.log(aleatorioEntre(5)); // 0, 5, 3, 8, 9
+    i++;
 }
 
 // Ejemplo con bucle do while.
 var i = 0;
 do { //
-  console.log(aleatorioEntre(6)); // 3, 5, 2, 4, 1, 0
-  i++;
+    console.log(aleatorioEntre(6)); // 3, 5, 2, 4, 1, 0
+    i++;
 }
 while (i < 6); // se ejecuta 6 veces
 

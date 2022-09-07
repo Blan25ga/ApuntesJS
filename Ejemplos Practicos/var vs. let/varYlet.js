@@ -30,15 +30,15 @@ esta variable solo será accesible desde dentro de la función.
 var miVariableGlobal = 10; // se declara una variable global
 
 function miFuncion() {
-  return miVariableGlobal; // se retorna la variable global
+    return miVariableGlobal; // se retorna la variable global
 }
 
 miFuncion(); // 10
 
 // Ejemplo de una variable local
 function miFuncion() {
-  let miVariableLocal = 10; // se declara una variable local
-  return miVariableLocal; // se retorna la variable local
+    let miVariableLocal = 10; // se declara una variable local
+    return miVariableLocal; // se retorna la variable local
 }
 
 miFuncion(); // 10

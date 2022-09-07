@@ -6,7 +6,7 @@
 // Ejemplo 1
 
 const fecha = function () { // funcion anonima, no tiene parametro
-  return new Date();
+    return new Date();
 };
 
 console.log(fecha()); // Muestra la fecha actual y hora

@@ -31,9 +31,9 @@ console.log(arr) // [3, 4, 5, 6]
 const primerArreglo = [1, 2, 3, 4, 5];
 
 function removerNumeros(arr) {
-  var nuevoArreglo;
-  const [, , , ...nuevoArreglo] = arr; //* se saltea los 3 primeros elementos y se asigna el resto a la variable "nuevoArreglo"
-  return nuevoArreglo; // [4, 5]
+    var nuevoArreglo;
+    const [, , , ...nuevoArreglo] = arr; //* se saltea los 3 primeros elementos y se asigna el resto a la variable "nuevoArreglo"
+    return nuevoArreglo; // [4, 5]
 
 }
 

@@ -25,7 +25,7 @@ console.log(mensaje); // Eres mayor de edad
 
 // retornar minimo de dos numeros
 function minimo(a, b) {
-  return (a < b) ? a : b;// si a es menor que b, retornar a, sino retornar b
+    return (a < b) ? a : b;// si a es menor que b, retornar a, sino retornar b
 }
 
 console.log(minimo(5, 10)); // 5

@@ -5,7 +5,7 @@ Utilizamos directamente dentro del "return" la condicion.
 */
 
 function esMenorQue(a, b) { // si se cumple la condicion, devuelve true, sino devuelve false.
-  return a < b;
+    return a < b;
 }
 
 console.log(esMenorQue(10, 15)); // true

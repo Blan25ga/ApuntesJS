@@ -4,8 +4,8 @@
 // para asignar un valor por defecto dentro de la función, se usa el operador = y el valor por defecto.
 
 function saludar(nombre = "visitante") {
-  console.log(`Hola ${nombre}`); // Hola visitante
-  //* el simbolo $ es para interpolar variables dentro de un string.
+    console.log(`Hola ${nombre}`); // Hola visitante
+    //* el simbolo $ es para interpolar variables dentro de un string.
 }
 
 saludar("Juan"); // Hola Juan

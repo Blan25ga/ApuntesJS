@@ -2,9 +2,9 @@
 // Agregar nuevas propiedades.
 
 var persona = {
-  nombre: "Juan",
-  apellido: "Perez",
-  edad: 28
+    nombre: "Juan",
+    apellido: "Perez",
+    edad: 28
 };
 
 // Agregamos una nueva propiedad al objeto persona.

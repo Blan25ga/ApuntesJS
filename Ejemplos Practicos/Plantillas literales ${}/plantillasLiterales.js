@@ -33,9 +33,9 @@ console.log(`El arreglo es ${JSON.stringify(arreglo)}`); // El arreglo es [1,2,3
 // reemplazar el valor de las propiedades de un objeto.
 
 const persona = {
-  nombre: "Juan",
-  apellido: "Perez",
-  edad: 30,
+    nombre: "Juan",
+    apellido: "Perez",
+    edad: 30,
 };
 
 const mensaje = `Hola, mi nombre es ${persona.nombre} ${persona.apellido} y tengo ${persona.edad} años.`;

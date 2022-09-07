@@ -11,13 +11,13 @@ console.log(PI); // TypeError, porque no se puede reasignar el valor a una const
 // funcion calcular el radio de un circulo, creando una cosntante.
 
 function calcularRadioCirculo(radio) {
-  const PI = 3.14;
+    const PI = 3.14;
 
-  if (radio < 0) {
-    return "El radio no puede ser negativo";
-  } else {
-    return PI * (radio ** 2); // ** es el operador de potencia
-  }
+    if (radio < 0) {
+        return "El radio no puede ser negativo";
+    } else {
+        return PI * (radio ** 2); // ** es el operador de potencia
+    }
 }
 
 console.log(calcularRadioCirculo(5)); // 78.5

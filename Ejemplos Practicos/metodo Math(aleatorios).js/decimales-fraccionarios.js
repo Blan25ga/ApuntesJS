@@ -18,7 +18,7 @@
 
 function generarFuncionAleatoria() { // funcion que genera un numero aleatorio
 
-  return Math.random(); // devuelve un numero aleatorio entre 0 y 1
+    return Math.random(); // devuelve un numero aleatorio entre 0 y 1
 
 }
 console.log(generarFuncionAleatoria());// llama un nmero con coma entre 0 y 1, nunca llama al 1.

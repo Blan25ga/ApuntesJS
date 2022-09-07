@@ -8,19 +8,19 @@ No todos los albums tienen informacion completa.
 */
 
 var colleccionDiscos = {
-  2548: {
-    tituloDelAlbum: "Slippery When Wet",
-    artista: "Bon Jovi",
-    canciones: ["Let It Rock", "You Give Love a Bad Name"]
-  },
-  2468: {
-    tituloDelAlbum: "1999",
-    artista: "Prince",
-    canciones: ["1999", "Little Red Corvette"]
-  },
-  1245: {
-    artista: "La 25",
-  },
+    2548: {
+        tituloDelAlbum: "Slippery When Wet",
+        artista: "Bon Jovi",
+        canciones: ["Let It Rock", "You Give Love a Bad Name"]
+    },
+    2468: {
+        tituloDelAlbum: "1999",
+        artista: "Prince",
+        canciones: ["1999", "Little Red Corvette"]
+    },
+    1245: {
+        artista: "La 25",
+    },
 };
 
 /* Definir una funcion actualizarDiscos que tome como parametros:
@@ -48,15 +48,15 @@ Si la propiedad no existe, crea una nueva propiedad y asignale el valor.
 
 // Ejemplo:
 function actualizarDiscos(discos, id, propiedad, valor) { // funcion para actualizar los discos
-  if (valor === "") {
-    delete discos[id][propiedad];
-  } else if (propiedad === "canciones" && discos[id].hasOwnProperty("canciones") === false) { // si la propiedad es "canciones" y el album no tiene una propiedad "canciones"
-    discos[id][propiedad] = []; // crea una propiedad "canciones" y asignale un arreglo vacio
-    discos[id][propiedad].push(valor); // agrega "valor" a ese arreglo
-  } else {
-    discos[id][propiedad] = valor; // asigna el valor del parametro "valor" a la propiedad
-  }
-  return discos; // retorna el objeto 
+    if (valor === "") {
+        delete discos[id][propiedad];
+    } else if (propiedad === "canciones" && discos[id].hasOwnProperty("canciones") === false) { // si la propiedad es "canciones" y el album no tiene una propiedad "canciones"
+        discos[id][propiedad] = []; // crea una propiedad "canciones" y asignale un arreglo vacio
+        discos[id][propiedad].push(valor); // agrega "valor" a ese arreglo
+    } else {
+        discos[id][propiedad] = valor; // asigna el valor del parametro "valor" a la propiedad
+    }
+    return discos; // retorna el objeto 
 }
 
 // se actualiza (elimina) el tituloDelAlbumdel id 2548

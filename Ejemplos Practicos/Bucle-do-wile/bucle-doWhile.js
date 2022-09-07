@@ -18,8 +18,8 @@ var x;
 x = 5;
 
 while (x < 10) {
-  console.log(x); // 5, 6, 7, 8, 9
-  x++;
+    console.log(x); // 5, 6, 7, 8, 9
+    x++;
 }
 
 // Ejemplo bucle "do while"
@@ -28,8 +28,8 @@ var x;
 x = 5;
 
 do {
-  console.log(x); // 5, 6, 7, 8, 9 // se ejecuta al menos una vez (a diferencia del bucle while)
-  x++;
+    console.log(x); // 5, 6, 7, 8, 9 // se ejecuta al menos una vez (a diferencia del bucle while)
+    x++;
 } while (x < 10); // la condicion se evalua al final de cada iteracion,si es verdadera, el bucle continua.
 
 
@@ -38,8 +38,8 @@ do {
 var x = 9;
 
 do {
-  console.log(x); //9
-  x++;
+    console.log(x); //9
+    x++;
 } while (x < 10); // la condicion se evalua al final de cada iteracion,si es verdadera, el bucle continua.
 //* la condicion es falsa, por lo que el bucle no se ejecuta.
 
@@ -49,8 +49,8 @@ do {
 var x = 15; // valor de x 15
 
 while (x < 10) { // la condicion es falsa desde el inicio
-  console.log(x); // no se ejecuta, la condicion es falsa desde el inicio
-  x++;
+    console.log(x); // no se ejecuta, la condicion es falsa desde el inicio
+    x++;
 }
 
 
